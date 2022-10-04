@@ -1,0 +1,45 @@
+:root {
+    --fond: #D5D1EF;
+    --fondCarte: white;
+    font-size: 12pt;
+}
+
+body {
+    background-color: var(--fond);
+}
+
+section {
+    display: flex;
+    justify-content: space-around;
+}
+
+.qr-card {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    background-color: var(--fondCarte);
+    border-radius: 7px;
+    padding: 14px;
+}
+
+.qr-card>img {
+    border-radius: 7px;
+}
+
+.qr-card>h3 {
+    margin: 10px auto;
+    padding: 7px;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.qr-card>p {
+    padding: 7px;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.attribution {
+    margin: 50px auto;
+    text-align: center;
+}
